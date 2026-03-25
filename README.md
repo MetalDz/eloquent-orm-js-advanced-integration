@@ -1,4 +1,11 @@
 # eloquent-orm-js-advanced-integration
+[![docs](https://img.shields.io/badge/docs-official-blue)](https://alphaconsultings.mintlify.app/)
+[![package](https://img.shields.io/badge/npm-@alpha.consultings%2Feloquent--orm.js-CB3837?logo=npm)](https://www.npmjs.com/package/@alpha.consultings/eloquent-orm.js)
+[![license](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
+[![stack](https://img.shields.io/badge/stack-Express%20%7C%20PostgreSQL%20%7C%20Memcached-0f766e)](#)
+[![auth](https://img.shields.io/badge/auth-JWT%20%2B%20refresh%20tokens-1d4ed8)](#)
+[![docker](https://img.shields.io/badge/tests-Docker--backed-2496ED?logo=docker&logoColor=white)](#)
+
 Advanced consumer-project validation harness for @alpha.consultings/eloquent-orm.js with Express, JWT auth, refresh tokens, PostgreSQL, Memcached, and Docker-backed integration tests.
 Use this for the new repo `README.md`:
 
@@ -144,3 +151,10 @@ Advanced package page related to this harness:
 ```
 
 If you want, I can also give you a shorter “GitHub-style polished” version with badges.
+
+## License
+
+This repository is licensed under the Apache 2.0 License.
+
+See [LICENSE](./LICENSE).
+
