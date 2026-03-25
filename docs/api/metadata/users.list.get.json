@@ -1,0 +1,16 @@
+{
+  "operationId": "users.list",
+  "method": "GET",
+  "path": "/api/users",
+  "authRequired": true,
+  "roles": ["admin"],
+  "requestBody": null,
+  "responseBody": [
+    {
+      "id": "number",
+      "name": "string",
+      "email": "string",
+      "role": "string"
+    }
+  ]
+}

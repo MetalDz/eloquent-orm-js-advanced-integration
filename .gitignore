@@ -1,2 +1,6 @@
+node_modules/
+dist/
+.env
+debug-blog-api.log
 node_modules
 dist

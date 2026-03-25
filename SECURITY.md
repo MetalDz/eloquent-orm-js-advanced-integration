@@ -1,6 +1,3 @@
-Use this for `SECURITY.md` in the harness repo:
-
-```md
 # Security Policy
 
 ## Scope
@@ -60,7 +57,7 @@ That includes:
 
 Network targets are configuration-driven through `.env` and runtime connection settings.
 
-This project does not “phone home” to unrelated external services as part of its backend logic.
+This project does not phone home to unrelated external services as part of its backend logic.
 
 ## Authentication and authorization
 
@@ -77,6 +74,9 @@ Protected write routes in the example app include:
 - `POST /api/posts`
 - `PATCH /api/posts/:id`
 - `DELETE /api/posts/:id`
+- `POST /api/users`
+- `PATCH /api/users/:id`
+- `DELETE /api/users/:id`
 
 This repository is a reference architecture and validation harness, not a complete security product.
 
@@ -110,7 +110,7 @@ Before using similar flows in production, apply your own hardening for:
 
 ## Reporting a vulnerability
 
-If you discover a security issue in this harness repo, open a private or controlled report through the owning GitHub organization if available.
+If you discover a security issue in this harness repo, report it through the owning GitHub account or organization if available.
 
 If the issue is actually in the package under test, report it to the main package repository:
 
@@ -121,4 +121,3 @@ If the issue is actually in the package under test, report it to the main packag
 - Official package docs: https://alphaconsultings.mintlify.app/
 - Package security policy: https://github.com/MetalDz/Eloquent-ORM.js/blob/ai_master/SECURITY.md
 - npm package: https://www.npmjs.com/package/@alpha.consultings/eloquent-orm.js
-```

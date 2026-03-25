@@ -1,0 +1,19 @@
+{
+  "operationId": "users.create",
+  "method": "POST",
+  "path": "/api/users",
+  "authRequired": true,
+  "roles": ["admin"],
+  "requestBody": {
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "role": "string"
+  },
+  "responseBody": {
+    "id": "number",
+    "name": "string",
+    "email": "string",
+    "role": "string"
+  }
+}

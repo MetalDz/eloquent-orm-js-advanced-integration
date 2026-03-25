@@ -1,0 +1,14 @@
+{
+  "operationId": "auth.refresh",
+  "method": "POST",
+  "path": "/api/auth/refresh",
+  "authRequired": false,
+  "roles": [],
+  "requestBody": {
+    "refreshToken": "string"
+  },
+  "responseBody": {
+    "accessToken": "string",
+    "refreshToken": "string"
+  }
+}

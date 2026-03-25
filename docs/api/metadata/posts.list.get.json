@@ -1,0 +1,19 @@
+{
+  "operationId": "posts.list",
+  "method": "GET",
+  "path": "/api/posts",
+  "authRequired": false,
+  "roles": [],
+  "requestBody": null,
+  "responseBody": [
+    {
+      "id": "number",
+      "title": "string",
+      "slug": "string",
+      "excerpt": "string|null",
+      "body": "string",
+      "user_id": "number"
+    }
+  ],
+  "cacheHeader": "x-cache"
+}

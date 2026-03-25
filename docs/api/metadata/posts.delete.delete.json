@@ -1,0 +1,9 @@
+{
+  "operationId": "posts.delete",
+  "method": "DELETE",
+  "path": "/api/posts/:id",
+  "authRequired": true,
+  "roles": ["admin", "author-owner"],
+  "requestBody": null,
+  "responseBody": null
+}

@@ -1,0 +1,21 @@
+{
+  "operationId": "auth.login",
+  "method": "POST",
+  "path": "/api/auth/login",
+  "authRequired": false,
+  "roles": [],
+  "requestBody": {
+    "email": "string",
+    "password": "string"
+  },
+  "responseBody": {
+    "user": {
+      "id": "number",
+      "name": "string",
+      "email": "string",
+      "role": "string"
+    },
+    "accessToken": "string",
+    "refreshToken": "string"
+  }
+}

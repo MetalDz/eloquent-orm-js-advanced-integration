@@ -1,0 +1,14 @@
+{
+  "operationId": "users.getById",
+  "method": "GET",
+  "path": "/api/users/:id",
+  "authRequired": true,
+  "roles": ["admin", "self"],
+  "requestBody": null,
+  "responseBody": {
+    "id": "number",
+    "name": "string",
+    "email": "string",
+    "role": "string"
+  }
+}

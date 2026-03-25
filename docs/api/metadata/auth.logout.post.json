@@ -1,0 +1,11 @@
+{
+  "operationId": "auth.logout",
+  "method": "POST",
+  "path": "/api/auth/logout",
+  "authRequired": false,
+  "roles": [],
+  "requestBody": {
+    "refreshToken": "string"
+  },
+  "responseBody": null
+}

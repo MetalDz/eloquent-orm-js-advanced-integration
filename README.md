@@ -1,16 +1,11 @@
-# eloquent-orm-js-advanced-integration
+# Eloquent ORM JS Advanced Integration
+
 [![docs](https://img.shields.io/badge/docs-official-blue)](https://alphaconsultings.mintlify.app/)
 [![package](https://img.shields.io/badge/npm-@alpha.consultings%2Feloquent--orm.js-CB3837?logo=npm)](https://www.npmjs.com/package/@alpha.consultings/eloquent-orm.js)
 [![license](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
 [![stack](https://img.shields.io/badge/stack-Express%20%7C%20PostgreSQL%20%7C%20Memcached-0f766e)](#)
 [![auth](https://img.shields.io/badge/auth-JWT%20%2B%20refresh%20tokens-1d4ed8)](#)
 [![docker](https://img.shields.io/badge/tests-Docker--backed-2496ED?logo=docker&logoColor=white)](#)
-
-Advanced consumer-project validation harness for @alpha.consultings/eloquent-orm.js with Express, JWT auth, refresh tokens, PostgreSQL, Memcached, and Docker-backed integration tests.
-Use this for the new repo `README.md`:
-
-```md
-# Eloquent ORM JS Real Backend Harness
 
 Advanced consumer-project validation harness for `@alpha.consultings/eloquent-orm.js` with Express, JWT auth, refresh tokens, PostgreSQL, Memcached, and Docker-backed integration tests.
 
@@ -61,16 +56,25 @@ src/
     support/
 scripts/
 docs/
+  api/
   plans/
 docker-compose.blog-api-test.yml
 ```
 
-## Main API flow
+## API surface
 
 Auth:
 - `POST /api/auth/login`
 - `POST /api/auth/refresh`
 - `POST /api/auth/logout`
+
+Users:
+- `GET /api/users/me`
+- `GET /api/users`
+- `GET /api/users/:id`
+- `POST /api/users`
+- `PATCH /api/users/:id`
+- `DELETE /api/users/:id`
 
 Posts:
 - `GET /api/posts`
@@ -85,7 +89,7 @@ Posts:
 npm install
 ```
 
-Create and review your `.env`, then run PostgreSQL migrations and seed data:
+Review `.env`, then run PostgreSQL migrations and seed data:
 
 ```bash
 npx eloquent migrate:fresh --pg --force --yes
@@ -97,6 +101,15 @@ npx eloquent db:seed --pg --class BlogScenarioSeeder
 ```bash
 npm run dev
 ```
+
+Background lifecycle:
+
+```bash
+npm run app:start
+npm run app:stop
+```
+
+`app:start` keeps the server running in the background until you stop it with `app:stop`.
 
 ## Run tests
 
@@ -118,7 +131,7 @@ PostgreSQL integration suite:
 npm run test:integration
 ```
 
-Docker-backed infrastructure test flow:
+Docker-backed infrastructure flow:
 
 ```bash
 npm run test:docker
@@ -144,15 +157,16 @@ Official package docs:
 Advanced package page related to this harness:
 - https://alphaconsultings.mintlify.app/test/real-backend-harness
 
+Harness-local API docs:
+- [docs/api/README.md](./docs/api/README.md)
+
 ## Package under test
 
 - npm: https://www.npmjs.com/package/@alpha.consultings/eloquent-orm.js
 - source: https://github.com/MetalDz/Eloquent-ORM.js
-```
 
 ## License
 
 This repository is licensed under the Apache 2.0 License.
 
 See [LICENSE](./LICENSE).
-

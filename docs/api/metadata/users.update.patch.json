@@ -1,0 +1,19 @@
+{
+  "operationId": "users.update",
+  "method": "PATCH",
+  "path": "/api/users/:id",
+  "authRequired": true,
+  "roles": ["admin", "self"],
+  "requestBody": {
+    "name": "string?",
+    "email": "string?",
+    "password": "string?",
+    "role": "string?"
+  },
+  "responseBody": {
+    "id": "number",
+    "name": "string",
+    "email": "string",
+    "role": "string"
+  }
+}

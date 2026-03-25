@@ -1,0 +1,9 @@
+{
+  "operationId": "users.delete",
+  "method": "DELETE",
+  "path": "/api/users/:id",
+  "authRequired": true,
+  "roles": ["admin"],
+  "requestBody": null,
+  "responseBody": null
+}
