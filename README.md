@@ -150,8 +150,6 @@ Advanced package page related to this harness:
 - source: https://github.com/MetalDz/Eloquent-ORM.js
 ```
 
-If you want, I can also give you a shorter “GitHub-style polished” version with badges.
-
 ## License
 
 This repository is licensed under the Apache 2.0 License.
