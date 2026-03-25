@@ -1,0 +1,14 @@
+2026-03-25T12:48:42.561Z debug:migrate:start
+2026-03-25T12:48:49.065Z debug:migrate:done
+2026-03-25T12:48:49.066Z debug:seed:start
+2026-03-25T12:48:51.766Z debug:seed:done
+2026-03-25T12:48:51.766Z debug:start:start
+2026-03-25T12:48:51.779Z debug:start:done {"baseUrl":"http://127.0.0.1:62672"}
+2026-03-25T12:48:51.780Z debug:health:start
+2026-03-25T12:48:51.816Z debug:health:done {"status":200}
+2026-03-25T12:48:51.938Z debug:login:done {"status":401}
+2026-03-25T12:48:51.971Z debug:index-miss:done {"status":200,"cache":"MISS"}
+2026-03-25T12:48:51.975Z debug:index-hit:done {"status":200,"cache":"HIT"}
+2026-03-25T12:48:51.980Z debug:create:done {"status":401,"json":{"error":"Missing bearer token.","details":null}}
+2026-03-25T12:48:51.981Z debug:cleanup:start
+2026-03-25T12:48:52.244Z debug:handles ["Socket","Socket","Socket"]

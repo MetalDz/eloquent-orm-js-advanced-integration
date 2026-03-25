@@ -1,0 +1,10 @@
+{
+  "presetId": "blog",
+  "generatedAt": "2026-03-25T11:36:57.190Z",
+  "models": [
+    "User",
+    "Post",
+    "Comment"
+  ],
+  "seedName": "BlogScenarioSeeder"
+}

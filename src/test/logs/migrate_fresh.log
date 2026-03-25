@@ -1,0 +1,1057 @@
+
+----- RUN 2026-03-25T11:37:48.230Z -----
+[2026-03-25T11:37:48.240Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T11:37:48.241Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+
+----- RUN 2026-03-25T11:53:30.065Z -----
+[2026-03-25T11:53:30.263Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T11:53:30.268Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T11:53:30.268Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T11:53:30.275Z] [ERROR] ERROR: migrate:fresh is blocked in production. Set ELOQUENT_ALLOW_PROD_DESTRUCTIVE=true and re-run with --force --yes.
+
+----- RUN 2026-03-25T11:53:54.164Z -----
+[2026-03-25T11:53:54.374Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T11:53:54.380Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T11:53:54.381Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T11:53:54.388Z] [INFO] Creating new pg connection...
+[2026-03-25T11:53:54.465Z] [INFO] Connected to pg.
+[2026-03-25T11:53:54.582Z] [INFO] All tables dropped for pg.
+[2026-03-25T11:53:54.588Z] [INFO] Closed pg connection.
+[2026-03-25T11:53:54.589Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T11:53:54.589Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T11:53:54.590Z] [INFO] Creating new pg connection...
+[2026-03-25T11:53:54.645Z] [INFO] Connected to pg.
+
+----- RUN 2026-03-25T11:53:54.711Z -----
+[2026-03-25T11:53:54.795Z] [INFO] Pending migrations: 5
+[2026-03-25T11:53:54.872Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T11:53:54.887Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T11:53:54.897Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T11:53:54.906Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T11:53:54.915Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T11:53:54.948Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T11:53:54.960Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T11:53:54.965Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T11:53:54.966Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T11:53:54.975Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T11:53:54.975Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T11:53:54.975Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T11:53:54.988Z] [INFO] Creating new pg connection...
+[2026-03-25T11:53:54.989Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T11:53:54.989Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T11:53:54.996Z] [INFO] Closed pg connection.
+[2026-03-25T11:53:54.997Z] [INFO] 
+All database connections closed.
+
+[2026-03-25T11:53:55.066Z] [INFO] Connected to pg.
+[2026-03-25T11:53:55.198Z] [INFO] All tables dropped for pg.
+[2026-03-25T11:53:55.204Z] [INFO] Closed pg connection.
+[2026-03-25T11:53:55.205Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T11:53:55.206Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T11:53:55.207Z] [INFO] Creating new pg connection...
+[2026-03-25T11:53:55.258Z] [INFO] Connected to pg.
+[2026-03-25T11:53:55.307Z] [INFO] Pending migrations: 5
+[2026-03-25T11:53:55.415Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T11:53:55.425Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T11:53:55.440Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T11:53:55.450Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T11:53:55.462Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T11:53:55.478Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T11:53:55.492Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T11:53:55.499Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T11:53:55.512Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T11:53:55.523Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T11:53:55.524Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T11:53:55.528Z] [INFO] Closed pg connection.
+[2026-03-25T11:53:55.529Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T11:58:59.901Z -----
+[2026-03-25T11:59:00.113Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T11:59:00.119Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T11:59:00.120Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T11:59:00.128Z] [INFO] Creating new pg connection...
+[2026-03-25T11:59:00.184Z] [INFO] Connected to pg.
+[2026-03-25T11:59:00.241Z] [INFO] All tables dropped for pg.
+[2026-03-25T11:59:00.247Z] [INFO] Closed pg connection.
+[2026-03-25T11:59:00.247Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T11:59:00.249Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T11:59:00.250Z] [INFO] Creating new pg connection...
+[2026-03-25T11:59:00.294Z] [INFO] Connected to pg.
+[2026-03-25T11:59:00.324Z] [INFO] Pending migrations: 5
+[2026-03-25T11:59:00.388Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T11:59:00.400Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T11:59:00.408Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T11:59:00.417Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T11:59:00.426Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T11:59:00.436Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T11:59:00.446Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T11:59:00.453Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T11:59:00.462Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T11:59:00.477Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T11:59:00.477Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T11:59:00.482Z] [INFO] Closed pg connection.
+[2026-03-25T11:59:00.482Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:03:14.309Z -----
+[2026-03-25T12:03:14.523Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:03:14.528Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:03:14.529Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:03:14.534Z] [INFO] Creating new pg connection...
+[2026-03-25T12:03:14.590Z] [INFO] Connected to pg.
+[2026-03-25T12:03:14.620Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:03:14.625Z] [INFO] Closed pg connection.
+[2026-03-25T12:03:14.626Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:03:14.626Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:03:14.627Z] [INFO] Creating new pg connection...
+[2026-03-25T12:03:14.774Z] [INFO] Connected to pg.
+[2026-03-25T12:03:14.798Z] [INFO] Pending migrations: 5
+[2026-03-25T12:03:14.858Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:03:14.866Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:03:14.874Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:03:14.882Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:03:14.890Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:03:14.898Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:03:14.907Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:03:14.914Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:03:14.922Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:03:14.932Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:03:14.933Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:03:14.936Z] [INFO] Closed pg connection.
+[2026-03-25T12:03:14.937Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:13:26.131Z -----
+[2026-03-25T12:13:26.319Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:13:26.324Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:13:26.325Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:13:26.332Z] [INFO] Creating new pg connection...
+[2026-03-25T12:13:26.487Z] [INFO] Connected to pg.
+[2026-03-25T12:13:26.519Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:13:26.524Z] [INFO] Closed pg connection.
+[2026-03-25T12:13:26.525Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:13:26.526Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:13:26.526Z] [INFO] Creating new pg connection...
+[2026-03-25T12:13:26.569Z] [INFO] Connected to pg.
+[2026-03-25T12:13:26.594Z] [INFO] Pending migrations: 5
+[2026-03-25T12:13:26.655Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:13:26.663Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:13:26.672Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:13:26.683Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:13:26.691Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:13:26.700Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:13:26.709Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:13:26.714Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:13:26.722Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:13:26.733Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:13:26.734Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:13:26.738Z] [INFO] Closed pg connection.
+[2026-03-25T12:13:26.739Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:19:12.876Z -----
+[2026-03-25T12:19:13.056Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:19:13.066Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:19:13.066Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:19:13.075Z] [INFO] Creating new pg connection...
+[2026-03-25T12:19:13.141Z] [INFO] Connected to pg.
+[2026-03-25T12:19:13.174Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:19:13.180Z] [INFO] Closed pg connection.
+[2026-03-25T12:19:13.181Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:19:13.182Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:19:13.183Z] [INFO] Creating new pg connection...
+[2026-03-25T12:19:13.225Z] [INFO] Connected to pg.
+[2026-03-25T12:19:13.254Z] [INFO] Pending migrations: 5
+[2026-03-25T12:19:13.335Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:19:13.347Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:19:13.359Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:19:13.370Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:19:13.380Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:19:13.391Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:19:13.403Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:19:13.409Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:19:13.420Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:19:13.431Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:19:13.432Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:19:13.438Z] [INFO] Closed pg connection.
+[2026-03-25T12:19:13.438Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:29:26.245Z -----
+[2026-03-25T12:29:26.450Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:29:26.455Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:29:26.456Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:29:26.465Z] [INFO] Creating new pg connection...
+[2026-03-25T12:29:26.627Z] [INFO] Connected to pg.
+[2026-03-25T12:29:26.662Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:29:26.667Z] [INFO] Closed pg connection.
+[2026-03-25T12:29:26.667Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:29:26.668Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:29:26.669Z] [INFO] Creating new pg connection...
+[2026-03-25T12:29:26.714Z] [INFO] Connected to pg.
+[2026-03-25T12:29:26.738Z] [INFO] Pending migrations: 5
+[2026-03-25T12:29:26.802Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:29:26.811Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:29:26.828Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:29:26.838Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:29:26.848Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:29:26.857Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:29:26.866Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:29:26.871Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:29:26.878Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:29:26.890Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:29:26.891Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:29:26.896Z] [INFO] Closed pg connection.
+[2026-03-25T12:29:26.896Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:32:05.576Z -----
+[2026-03-25T12:32:05.784Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:32:05.793Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:32:05.794Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:32:05.800Z] [INFO] Creating new pg connection...
+[2026-03-25T12:32:05.868Z] [INFO] Connected to pg.
+[2026-03-25T12:32:05.904Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:32:05.910Z] [INFO] Closed pg connection.
+[2026-03-25T12:32:05.910Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:32:05.911Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:32:05.912Z] [INFO] Creating new pg connection...
+[2026-03-25T12:32:05.959Z] [INFO] Connected to pg.
+[2026-03-25T12:32:05.986Z] [INFO] Pending migrations: 5
+[2026-03-25T12:32:06.058Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:32:06.067Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:32:06.077Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:32:06.084Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:32:06.093Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:32:06.101Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:32:06.111Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:32:06.116Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:32:06.125Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:32:06.134Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:32:06.135Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:32:06.142Z] [INFO] Closed pg connection.
+[2026-03-25T12:32:06.142Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:36:33.447Z -----
+[2026-03-25T12:36:33.809Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:36:33.819Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:36:33.819Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:36:33.837Z] [INFO] Creating new pg connection...
+[2026-03-25T12:36:33.906Z] [INFO] Connected to pg.
+[2026-03-25T12:36:34.013Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:36:34.018Z] [INFO] Closed pg connection.
+[2026-03-25T12:36:34.018Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:36:34.019Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:36:34.020Z] [INFO] Creating new pg connection...
+[2026-03-25T12:36:34.058Z] [INFO] Connected to pg.
+[2026-03-25T12:36:34.156Z] [INFO] Pending migrations: 5
+[2026-03-25T12:36:34.219Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:36:34.636Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:36:34.645Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:36:34.712Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:36:34.720Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:36:35.161Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:36:35.171Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:36:35.240Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:36:35.247Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:36:35.318Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:36:35.319Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:36:35.324Z] [INFO] Closed pg connection.
+[2026-03-25T12:36:35.325Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:40:59.273Z -----
+[2026-03-25T12:40:59.430Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:40:59.443Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:40:59.444Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:40:59.449Z] [INFO] Creating new pg connection...
+[2026-03-25T12:40:59.520Z] [INFO] Connected to pg.
+[2026-03-25T12:40:59.552Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:40:59.558Z] [INFO] Closed pg connection.
+[2026-03-25T12:40:59.559Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:40:59.560Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:40:59.561Z] [INFO] Creating new pg connection...
+[2026-03-25T12:40:59.725Z] [INFO] Connected to pg.
+[2026-03-25T12:40:59.747Z] [INFO] Pending migrations: 5
+[2026-03-25T12:40:59.806Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:40:59.813Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:40:59.820Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:40:59.829Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:40:59.836Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:40:59.844Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:40:59.853Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:40:59.857Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:40:59.864Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:40:59.873Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:40:59.873Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:40:59.877Z] [INFO] Closed pg connection.
+[2026-03-25T12:40:59.878Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:44:05.027Z -----
+[2026-03-25T12:44:05.188Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:44:05.194Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:44:05.194Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:44:05.200Z] [INFO] Creating new pg connection...
+[2026-03-25T12:44:05.248Z] [INFO] Connected to pg.
+[2026-03-25T12:44:05.279Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:44:05.284Z] [INFO] Closed pg connection.
+[2026-03-25T12:44:05.285Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:44:05.286Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:44:05.286Z] [INFO] Creating new pg connection...
+[2026-03-25T12:44:05.327Z] [INFO] Connected to pg.
+[2026-03-25T12:44:05.348Z] [INFO] Pending migrations: 5
+[2026-03-25T12:44:05.405Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:44:05.581Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:44:05.590Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:44:06.087Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:44:06.095Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:44:06.202Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:44:06.212Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:44:06.316Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:44:06.324Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:44:06.430Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:44:06.431Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:44:06.435Z] [INFO] Closed pg connection.
+[2026-03-25T12:44:06.435Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:48:44.347Z -----
+[2026-03-25T12:48:44.510Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:48:44.515Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:48:44.515Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:48:44.522Z] [INFO] Creating new pg connection...
+[2026-03-25T12:48:44.670Z] [INFO] Connected to pg.
+[2026-03-25T12:48:44.718Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:48:44.723Z] [INFO] Closed pg connection.
+[2026-03-25T12:48:44.723Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:48:44.724Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:48:44.725Z] [INFO] Creating new pg connection...
+[2026-03-25T12:48:44.764Z] [INFO] Connected to pg.
+[2026-03-25T12:48:44.816Z] [INFO] Pending migrations: 5
+[2026-03-25T12:48:44.877Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:48:45.621Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:48:45.630Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:48:46.610Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:48:46.618Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:48:47.445Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:48:47.453Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:48:48.181Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:48:48.190Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:48:48.991Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:48:48.992Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:48:48.999Z] [INFO] Closed pg connection.
+[2026-03-25T12:48:48.999Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:50:12.889Z -----
+[2026-03-25T12:50:13.062Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:50:13.068Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:50:13.068Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:50:13.073Z] [INFO] Creating new pg connection...
+[2026-03-25T12:50:13.127Z] [INFO] Connected to pg.
+[2026-03-25T12:50:13.238Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:50:13.243Z] [INFO] Closed pg connection.
+[2026-03-25T12:50:13.243Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:50:13.244Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:50:13.244Z] [INFO] Creating new pg connection...
+[2026-03-25T12:50:13.287Z] [INFO] Connected to pg.
+[2026-03-25T12:50:13.361Z] [INFO] Pending migrations: 5
+[2026-03-25T12:50:13.421Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:50:13.428Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:50:13.436Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:50:13.444Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:50:13.453Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:50:13.465Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:50:13.473Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:50:13.477Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:50:13.485Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:50:13.494Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:50:13.494Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:50:13.498Z] [INFO] Closed pg connection.
+[2026-03-25T12:50:13.498Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:50:53.691Z -----
+[2026-03-25T12:50:53.845Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:50:53.850Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:50:53.851Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:50:53.857Z] [INFO] Creating new pg connection...
+[2026-03-25T12:50:53.909Z] [INFO] Connected to pg.
+[2026-03-25T12:50:53.942Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:50:53.948Z] [INFO] Closed pg connection.
+[2026-03-25T12:50:53.948Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:50:53.949Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:50:53.950Z] [INFO] Creating new pg connection...
+[2026-03-25T12:50:53.990Z] [INFO] Connected to pg.
+[2026-03-25T12:50:54.017Z] [INFO] Pending migrations: 5
+[2026-03-25T12:50:54.075Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:50:54.083Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:50:54.091Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:50:54.100Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:50:54.108Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:50:54.117Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:50:54.125Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:50:54.130Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:50:54.137Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:50:54.149Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:50:54.150Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:50:54.154Z] [INFO] Closed pg connection.
+[2026-03-25T12:50:54.154Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:51:19.631Z -----
+[2026-03-25T12:51:19.810Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:51:19.817Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:51:19.817Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:51:19.825Z] [INFO] Creating new pg connection...
+[2026-03-25T12:51:19.889Z] [INFO] Connected to pg.
+[2026-03-25T12:51:19.944Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:51:19.951Z] [INFO] Closed pg connection.
+[2026-03-25T12:51:19.952Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:51:19.952Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:51:19.953Z] [INFO] Creating new pg connection...
+[2026-03-25T12:51:20.014Z] [INFO] Connected to pg.
+[2026-03-25T12:51:20.037Z] [INFO] Pending migrations: 5
+[2026-03-25T12:51:20.100Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:51:20.108Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:51:20.117Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:51:20.126Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:51:20.133Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:51:20.142Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:51:20.151Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:51:20.155Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:51:20.162Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:51:20.175Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:51:20.176Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:51:20.179Z] [INFO] Closed pg connection.
+[2026-03-25T12:51:20.180Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:54:47.474Z -----
+[2026-03-25T12:54:47.628Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:54:47.633Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:54:47.633Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:54:47.639Z] [INFO] Creating new pg connection...
+[2026-03-25T12:54:47.693Z] [INFO] Connected to pg.
+[2026-03-25T12:54:47.730Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:54:47.736Z] [INFO] Closed pg connection.
+[2026-03-25T12:54:47.736Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:54:47.737Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:54:47.738Z] [INFO] Creating new pg connection...
+[2026-03-25T12:54:47.776Z] [INFO] Connected to pg.
+[2026-03-25T12:54:47.801Z] [INFO] Pending migrations: 5
+[2026-03-25T12:54:47.858Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:54:47.865Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:54:47.872Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:54:47.880Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:54:47.886Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:54:47.894Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:54:47.903Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:54:47.908Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:54:47.915Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:54:47.926Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:54:47.926Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:54:47.930Z] [INFO] Closed pg connection.
+[2026-03-25T12:54:47.930Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:55:10.473Z -----
+[2026-03-25T12:55:10.635Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:55:10.640Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:55:10.640Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:55:10.647Z] [INFO] Creating new pg connection...
+[2026-03-25T12:55:10.708Z] [INFO] Connected to pg.
+[2026-03-25T12:55:10.741Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:55:10.747Z] [INFO] Closed pg connection.
+[2026-03-25T12:55:10.747Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:55:10.748Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:55:10.748Z] [INFO] Creating new pg connection...
+[2026-03-25T12:55:10.893Z] [INFO] Connected to pg.
+[2026-03-25T12:55:10.941Z] [INFO] Pending migrations: 5
+[2026-03-25T12:55:10.998Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:55:11.005Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:55:11.014Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:55:11.024Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:55:11.031Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:55:11.042Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:55:11.050Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:55:11.054Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:55:11.061Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:55:11.071Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:55:11.072Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:55:11.075Z] [INFO] Closed pg connection.
+[2026-03-25T12:55:11.076Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:56:11.072Z -----
+[2026-03-25T12:56:11.249Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:56:11.254Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:56:11.254Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:56:11.260Z] [INFO] Creating new pg connection...
+[2026-03-25T12:56:11.317Z] [INFO] Connected to pg.
+
+----- RUN 2026-03-25T12:56:11.532Z -----
+[2026-03-25T12:56:11.723Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:56:11.728Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:56:11.729Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:56:11.735Z] [INFO] Creating new pg connection...
+[2026-03-25T12:56:11.760Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:56:11.766Z] [INFO] Closed pg connection.
+[2026-03-25T12:56:11.766Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:56:11.767Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:56:11.767Z] [INFO] Creating new pg connection...
+[2026-03-25T12:56:11.793Z] [INFO] Connected to pg.
+[2026-03-25T12:56:11.797Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:56:11.802Z] [INFO] Closed pg connection.
+[2026-03-25T12:56:11.803Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:56:11.803Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:56:11.804Z] [INFO] Creating new pg connection...
+[2026-03-25T12:56:11.805Z] [INFO] Connected to pg.
+[2026-03-25T12:56:11.871Z] [INFO] Connected to pg.
+[2026-03-25T12:56:11.931Z] [INFO] Pending migrations: 5
+[2026-03-25T12:56:11.995Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:56:12.453Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:56:12.461Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:56:12.850Z] [ERROR] error: relation "migrations" already exists
+    at L:\testing_package\node_modules\pg\lib\client.js:631:17
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Object.execute (L:\testing_package\node_modules\@alpha.consultings\eloquent-orm.js\dist\core\connection\DriverAdapter.js:120:13)
+    at async ensureMigrationTables (L:\testing_package\node_modules\@alpha.consultings\eloquent-orm.js\dist\cli\utils\migrations\MigrationTracker.js:95:5)
+    at async runMigrationsForConnection (L:\testing_package\node_modules\@alpha.consultings\eloquent-orm.js\dist\cli\commands\migrateRun.js:184:5)
+    at async migrateRun (L:\testing_package\node_modules\@alpha.consultings\eloquent-orm.js\dist\cli\commands\migrateRun.js:281:25)
+    at async migrateFresh (L:\testing_package\node_modules\@alpha.consultings\eloquent-orm.js\dist\cli\commands\migrateFresh.js:127:5) {
+  length: 104,
+  severity: 'ERROR',
+  code: '42P07',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'heap.c',
+  line: '1179',
+  routine: 'heap_create_with_catalog'
+}
+[2026-03-25T12:56:13.203Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:56:13.212Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:56:13.827Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:56:13.839Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:56:13.891Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:56:13.903Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:56:14.021Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:56:14.021Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:56:14.026Z] [INFO] Closed pg connection.
+[2026-03-25T12:56:14.026Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T12:59:49.759Z -----
+[2026-03-25T12:59:49.914Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T12:59:49.919Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T12:59:49.919Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T12:59:49.925Z] [INFO] Creating new pg connection...
+[2026-03-25T12:59:49.977Z] [INFO] Connected to pg.
+[2026-03-25T12:59:50.030Z] [INFO] All tables dropped for pg.
+[2026-03-25T12:59:50.035Z] [INFO] Closed pg connection.
+[2026-03-25T12:59:50.035Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T12:59:50.036Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T12:59:50.036Z] [INFO] Creating new pg connection...
+[2026-03-25T12:59:50.075Z] [INFO] Connected to pg.
+[2026-03-25T12:59:50.123Z] [INFO] Pending migrations: 5
+[2026-03-25T12:59:50.182Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:59:50.189Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T12:59:50.197Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T12:59:50.205Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T12:59:50.213Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:59:50.221Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T12:59:50.229Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:59:50.245Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T12:59:50.253Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:59:50.264Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T12:59:50.264Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T12:59:50.268Z] [INFO] Closed pg connection.
+[2026-03-25T12:59:50.268Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T13:00:13.999Z -----
+[2026-03-25T13:00:14.193Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T13:00:14.198Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T13:00:14.198Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T13:00:14.206Z] [INFO] Creating new pg connection...
+[2026-03-25T13:00:14.256Z] [INFO] Connected to pg.
+[2026-03-25T13:00:14.295Z] [INFO] All tables dropped for pg.
+[2026-03-25T13:00:14.300Z] [INFO] Closed pg connection.
+[2026-03-25T13:00:14.301Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T13:00:14.302Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T13:00:14.302Z] [INFO] Creating new pg connection...
+[2026-03-25T13:00:14.340Z] [INFO] Connected to pg.
+[2026-03-25T13:00:14.394Z] [INFO] Pending migrations: 5
+[2026-03-25T13:00:14.456Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:00:14.464Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:00:14.472Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T13:00:14.485Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T13:00:14.493Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:00:14.506Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:00:14.513Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:00:14.522Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:00:14.530Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:00:14.540Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:00:14.540Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T13:00:14.544Z] [INFO] Closed pg connection.
+[2026-03-25T13:00:14.544Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T13:00:14.611Z -----
+[2026-03-25T13:00:14.806Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T13:00:14.812Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T13:00:14.812Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T13:00:14.820Z] [INFO] Creating new pg connection...
+[2026-03-25T13:00:14.978Z] [INFO] Connected to pg.
+[2026-03-25T13:00:15.085Z] [INFO] All tables dropped for pg.
+[2026-03-25T13:00:15.091Z] [INFO] Closed pg connection.
+[2026-03-25T13:00:15.091Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T13:00:15.092Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T13:00:15.093Z] [INFO] Creating new pg connection...
+[2026-03-25T13:00:15.133Z] [INFO] Connected to pg.
+[2026-03-25T13:00:15.157Z] [INFO] Pending migrations: 5
+[2026-03-25T13:00:15.220Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:00:15.228Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:00:15.237Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T13:00:15.245Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T13:00:15.253Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:00:15.264Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:00:15.272Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:00:15.277Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:00:15.285Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:00:15.296Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:00:15.297Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T13:00:15.301Z] [INFO] Closed pg connection.
+[2026-03-25T13:00:15.301Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T13:02:33.276Z -----
+[2026-03-25T13:02:33.515Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T13:02:33.525Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T13:02:33.526Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T13:02:33.535Z] [INFO] Creating new pg connection...
+[2026-03-25T13:02:33.650Z] [INFO] Connected to pg.
+[2026-03-25T13:02:33.689Z] [INFO] All tables dropped for pg.
+[2026-03-25T13:02:33.697Z] [INFO] Closed pg connection.
+[2026-03-25T13:02:33.698Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T13:02:33.699Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T13:02:33.699Z] [INFO] Creating new pg connection...
+[2026-03-25T13:02:33.746Z] [INFO] Connected to pg.
+
+----- RUN 2026-03-25T13:02:33.835Z -----
+[2026-03-25T13:02:33.881Z] [INFO] Pending migrations: 5
+[2026-03-25T13:02:33.971Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:02:33.981Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:02:33.991Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T13:02:34.006Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T13:02:34.018Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:02:34.029Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:02:34.041Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:02:34.059Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:02:34.069Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:02:34.083Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:02:34.083Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T13:02:34.088Z] [INFO] Closed pg connection.
+[2026-03-25T13:02:34.089Z] [INFO] 
+All database connections closed.
+
+[2026-03-25T13:02:34.108Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T13:02:34.116Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T13:02:34.116Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T13:02:34.125Z] [INFO] Creating new pg connection...
+[2026-03-25T13:02:34.202Z] [INFO] Connected to pg.
+[2026-03-25T13:02:34.326Z] [INFO] All tables dropped for pg.
+[2026-03-25T13:02:34.333Z] [INFO] Closed pg connection.
+[2026-03-25T13:02:34.333Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T13:02:34.334Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T13:02:34.335Z] [INFO] Creating new pg connection...
+[2026-03-25T13:02:34.391Z] [INFO] Connected to pg.
+[2026-03-25T13:02:34.424Z] [INFO] Pending migrations: 5
+[2026-03-25T13:02:34.501Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:02:34.535Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:02:34.545Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T13:02:34.554Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T13:02:34.563Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:02:34.573Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:02:34.582Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:02:34.586Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:02:34.596Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:02:34.607Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:02:34.607Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T13:02:34.612Z] [INFO] Closed pg connection.
+[2026-03-25T13:02:34.612Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T13:04:41.933Z -----
+[2026-03-25T13:04:42.150Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T13:04:42.163Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T13:04:42.167Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T13:04:42.187Z] [INFO] Creating new pg connection...
+[2026-03-25T13:04:42.259Z] [INFO] Connected to pg.
+[2026-03-25T13:04:42.321Z] [INFO] All tables dropped for pg.
+[2026-03-25T13:04:42.330Z] [INFO] Closed pg connection.
+[2026-03-25T13:04:42.331Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T13:04:42.332Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T13:04:42.333Z] [INFO] Creating new pg connection...
+[2026-03-25T13:04:42.386Z] [INFO] Connected to pg.
+[2026-03-25T13:04:42.415Z] [INFO] Pending migrations: 5
+[2026-03-25T13:04:42.492Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:04:42.501Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:04:42.510Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T13:04:42.520Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T13:04:42.530Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:04:42.539Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:04:42.549Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:04:42.556Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:04:42.566Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:04:42.577Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:04:42.578Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T13:04:42.583Z] [INFO] Closed pg connection.
+[2026-03-25T13:04:42.584Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T13:04:42.632Z -----
+[2026-03-25T13:04:42.839Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T13:04:42.846Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T13:04:42.846Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T13:04:42.857Z] [INFO] Creating new pg connection...
+[2026-03-25T13:04:42.910Z] [INFO] Connected to pg.
+[2026-03-25T13:04:43.025Z] [INFO] All tables dropped for pg.
+[2026-03-25T13:04:43.031Z] [INFO] Closed pg connection.
+[2026-03-25T13:04:43.032Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T13:04:43.032Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T13:04:43.033Z] [INFO] Creating new pg connection...
+[2026-03-25T13:04:43.078Z] [INFO] Connected to pg.
+[2026-03-25T13:04:43.102Z] [INFO] Pending migrations: 5
+[2026-03-25T13:04:43.168Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:04:43.177Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:04:43.186Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T13:04:43.195Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T13:04:43.203Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:04:43.212Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:04:43.227Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:04:43.232Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:04:43.241Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:04:43.252Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:04:43.253Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T13:04:43.257Z] [INFO] Closed pg connection.
+[2026-03-25T13:04:43.258Z] [INFO] 
+All database connections closed.
+
+
+----- RUN 2026-03-25T13:06:55.187Z -----
+[2026-03-25T13:06:55.427Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T13:06:55.436Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T13:06:55.437Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T13:06:55.452Z] [INFO] Creating new pg connection...
+[2026-03-25T13:06:55.509Z] [INFO] Connected to pg.
+[2026-03-25T13:06:55.538Z] [INFO] All tables dropped for pg.
+[2026-03-25T13:06:55.544Z] [INFO] Closed pg connection.
+[2026-03-25T13:06:55.545Z] [INFO] All tables dropped. Re-running migrations...
+[2026-03-25T13:06:55.545Z] [INFO] 
+Running migrations in DEVELOPMENT mode on "pg"...
+
+[2026-03-25T13:06:55.546Z] [INFO] Creating new pg connection...
+[2026-03-25T13:06:55.693Z] [INFO] Connected to pg.
+[2026-03-25T13:06:55.718Z] [INFO] Pending migrations: 5
+[2026-03-25T13:06:55.785Z] [INFO] Applying: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:06:55.793Z] [INFO] Migration applied: 20260325113748001_create_comments_table.ts
+[2026-03-25T13:06:55.801Z] [INFO] Applying: 20260325113748002_create_users_table.ts
+[2026-03-25T13:06:55.813Z] [INFO] Migration applied: 20260325113748002_create_users_table.ts
+[2026-03-25T13:06:55.823Z] [INFO] Applying: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:06:55.833Z] [INFO] Migration applied: 20260325113748003_create_posts_table.ts
+[2026-03-25T13:06:55.843Z] [INFO] Applying: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:06:55.849Z] [INFO] Migration applied: 20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T13:06:55.858Z] [INFO] Applying: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:06:55.869Z] [INFO] Migration applied: 20260325114500005_create_refresh_tokens_table.ts
+[2026-03-25T13:06:55.870Z] [INFO] 
+5 migration(s) applied successfully.
+[2026-03-25T13:06:55.881Z] [INFO] Closed pg connection.
+[2026-03-25T13:06:55.882Z] [INFO] 
+All database connections closed.
+

@@ -1,0 +1,46 @@
+
+----- RUN 2026-03-25T11:37:20.114Z -----
+[2026-03-25T11:37:20.122Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T11:37:20.122Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+
+----- RUN 2026-03-25T11:37:48.273Z -----
+[2026-03-25T11:37:48.713Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T11:37:48.722Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T11:37:48.722Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T11:37:48.748Z] [INFO] INFO: Models Path: L:\testing_package\src\app\models
+[2026-03-25T11:37:48.749Z] [INFO] INFO: Migrations Root: L:\testing_package\src\app\database\migrations
+[2026-03-25T11:37:50.773Z] [INFO] ✅ TypeScript compilation passed successfully.
+
+[2026-03-25T11:37:52.044Z] [INFO] ✅ TypeScript compilation passed successfully.
+
+[2026-03-25T11:37:52.845Z] [INFO] ✅ TypeScript compilation passed successfully.
+
+[2026-03-25T11:37:52.869Z] [WARN] ⚠️ Invalid connection "postgres" — falling back to "mysql".
+[2026-03-25T11:37:52.870Z] [INFO] INFO: Using connection: pg
+[2026-03-25T11:37:52.871Z] [INFO] INFO: Migrations Path: L:\testing_package\src\app\database\migrations\pg
+[2026-03-25T11:37:52.874Z] [INFO] OK: Migration (CREATE) saved: L:\testing_package\src\app\database\migrations\pg\20260325113748001_create_comments_table.ts
+[2026-03-25T11:37:52.874Z] [WARN] ⚠️ Invalid connection "postgres" — falling back to "mysql".
+[2026-03-25T11:37:52.875Z] [INFO] INFO: Using connection: pg
+[2026-03-25T11:37:52.876Z] [INFO] INFO: Migrations Path: L:\testing_package\src\app\database\migrations\pg
+[2026-03-25T11:37:52.890Z] [INFO] OK: Migration (CREATE) saved: L:\testing_package\src\app\database\migrations\pg\20260325113748002_create_users_table.ts
+[2026-03-25T11:37:52.890Z] [WARN] ⚠️ Invalid connection "postgres" — falling back to "mysql".
+[2026-03-25T11:37:52.891Z] [INFO] INFO: Using connection: pg
+[2026-03-25T11:37:52.891Z] [INFO] INFO: Migrations Path: L:\testing_package\src\app\database\migrations\pg
+[2026-03-25T11:37:52.893Z] [INFO] OK: Migration (CREATE) saved: L:\testing_package\src\app\database\migrations\pg\20260325113748003_create_posts_table.ts
+[2026-03-25T11:37:52.894Z] [INFO] OK: Pivot migration saved: L:\testing_package\src\app\database\migrations\pg\20260325113748004_create_post_user_pivot_table.ts
+[2026-03-25T11:37:52.895Z] [INFO] INFO: All database connections closed.
+
+[2026-03-25T11:37:52.895Z] [INFO] OK: Migration generation complete in DEVELOPMENT mode.
+

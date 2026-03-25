@@ -1,0 +1,94 @@
+
+----- RUN 2026-03-25T11:35:58.740Z -----
+[2026-03-25T11:35:58.744Z] [INFO] Initializing FactoryRegistry...
+[2026-03-25T11:35:58.745Z] [INFO] No factories folder found at: L:\testing_package\src\app\database\factories
+[2026-03-25T11:35:58.761Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T11:35:58.762Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+
+----- RUN 2026-03-25T11:36:54.265Z -----
+[2026-03-25T11:36:55.052Z] [INFO] TypeScript runtime enabled (ts-node).
+[2026-03-25T11:36:55.053Z] [INFO] Initializing FactoryRegistry...
+[2026-03-25T11:36:55.054Z] [INFO] No factories folder found at: L:\testing_package\src\app\database\factories
+[2026-03-25T11:36:55.061Z] [INFO]   _____  _                                    _      ___   ____   __  __       _  ____  
+ | ____|| |  ___    __ _  _   _   ___  _ __  | |_   / _ \ |  _ \ |  \/  |     | |/ ___| 
+ |  _|  | | / _ \  / _` || | | | / _ \| '_ \ | __| | | | || |_) || |\/| |  _  | |\___ \ 
+ | |___ | || (_) || (_| || |_| ||  __/| | | || |_  | |_| ||  _ < | |  | | | |_| | ___) |
+ |_____||_| \___/  \__, | \__,_| \___||_| |_| \__|  \___/ |_| \_\|_|  |_|  \___/ |____/ 
+                      |_|                                                               
+[2026-03-25T11:36:55.061Z] [INFO]   Developer CLI for Eloquent ORM JS (v1.0)
+
+[2026-03-25T11:36:55.068Z] [WARN] ⚠️ Invalid connection "postgres" — falling back to "mysql".
+[2026-03-25T11:36:55.069Z] [INFO] 
+Scenario preset: blog
+[2026-03-25T11:36:55.070Z] [INFO] Users, Posts, Comments (morph), Favorites pivot
+[2026-03-25T11:36:55.090Z] [INFO] Model created: L:\testing_package\src\app\models\User.ts
+[2026-03-25T11:36:55.093Z] [INFO] Model created: L:\testing_package\src\app\models\Post.ts
+[2026-03-25T11:36:55.094Z] [INFO] Model created: L:\testing_package\src\app\models\Comment.ts
+[2026-03-25T11:36:55.095Z] [INFO] 
+Generating factory: User...
+[2026-03-25T11:36:57.143Z] [INFO] Loaded 0 factories.
+[2026-03-25T11:36:57.145Z] [INFO] Created file: L:\testing_package\src\app\database\factories\UserFactory.ts
+[2026-03-25T11:36:57.146Z] [INFO] Created file: L:\testing_package\src\app\database\factories\UserPostPivotFactory.ts
+[2026-03-25T11:36:57.146Z] [INFO] 
+Factory generation complete for model: User
+
+[2026-03-25T11:36:57.147Z] [INFO] 
+Generating factory: Post...
+[2026-03-25T11:36:57.162Z] [INFO] Created file: L:\testing_package\src\app\database\factories\PostFactory.ts
+[2026-03-25T11:36:57.163Z] [INFO] Created file: L:\testing_package\src\app\database\factories\PostUserPivotFactory.ts
+[2026-03-25T11:36:57.164Z] [INFO] 
+Factory generation complete for model: Post
+
+[2026-03-25T11:36:57.164Z] [INFO] 
+Generating factory: Comment...
+[2026-03-25T11:36:57.178Z] [INFO] Created file: L:\testing_package\src\app\database\factories\CommentFactory.ts
+[2026-03-25T11:36:57.178Z] [INFO] 
+Factory generation complete for model: Comment
+
+[2026-03-25T11:36:57.180Z] [INFO] Created file: L:\testing_package\src\app\controllers\UserController.ts
+[2026-03-25T11:36:57.181Z] [INFO] Controller created: src/app/controllers/UserController.ts
+[2026-03-25T11:36:57.182Z] [INFO] Created file: L:\testing_package\src\app\controllers\PostController.ts
+[2026-03-25T11:36:57.182Z] [INFO] Controller created: src/app/controllers/PostController.ts
+[2026-03-25T11:36:57.184Z] [INFO] Created file: L:\testing_package\src\app\controllers\CommentController.ts
+[2026-03-25T11:36:57.184Z] [INFO] Controller created: src/app/controllers/CommentController.ts
+[2026-03-25T11:36:57.185Z] [INFO] Created file: L:\testing_package\src\app\services\UserService.ts
+[2026-03-25T11:36:57.186Z] [INFO] Service created: src/app/services/UserService.ts
+[2026-03-25T11:36:57.187Z] [INFO] Created file: L:\testing_package\src\app\services\PostService.ts
+[2026-03-25T11:36:57.187Z] [INFO] Service created: src/app/services/PostService.ts
+[2026-03-25T11:36:57.188Z] [INFO] Created file: L:\testing_package\src\app\services\CommentService.ts
+[2026-03-25T11:36:57.188Z] [INFO] Service created: src/app/services/CommentService.ts
+[2026-03-25T11:36:57.189Z] [INFO] Seeder created: L:\testing_package\src\app\database\seeds\BlogScenarioSeeder.ts
+[2026-03-25T11:36:57.204Z] [INFO] INFO: Models Path: L:\testing_package\src\app\models
+[2026-03-25T11:36:57.204Z] [INFO] INFO: Migrations Root: L:\testing_package\src\app\database\migrations
+[2026-03-25T11:36:59.769Z] [INFO] ✅ TypeScript compilation passed successfully.
+
+[2026-03-25T11:37:00.643Z] [INFO] ✅ TypeScript compilation passed successfully.
+
+[2026-03-25T11:37:01.820Z] [INFO] ✅ TypeScript compilation passed successfully.
+
+[2026-03-25T11:37:01.831Z] [WARN] ⚠️ Invalid connection "postgres" — falling back to "mysql".
+[2026-03-25T11:37:01.832Z] [INFO] INFO: Using connection: mysql
+[2026-03-25T11:37:01.832Z] [INFO] INFO: Migrations Path: L:\testing_package\src\app\database\migrations\mysql
+[2026-03-25T11:37:01.837Z] [INFO] OK: Migration (CREATE) saved: L:\testing_package\src\app\database\migrations\mysql\20260325113657001_create_comments_table.ts
+[2026-03-25T11:37:01.837Z] [WARN] ⚠️ Invalid connection "postgres" — falling back to "mysql".
+[2026-03-25T11:37:01.839Z] [INFO] INFO: Using connection: mysql
+[2026-03-25T11:37:01.840Z] [INFO] INFO: Migrations Path: L:\testing_package\src\app\database\migrations\mysql
+[2026-03-25T11:37:01.863Z] [INFO] OK: Migration (CREATE) saved: L:\testing_package\src\app\database\migrations\mysql\20260325113657002_create_users_table.ts
+[2026-03-25T11:37:01.864Z] [WARN] ⚠️ Invalid connection "postgres" — falling back to "mysql".
+[2026-03-25T11:37:01.865Z] [INFO] INFO: Using connection: mysql
+[2026-03-25T11:37:01.868Z] [INFO] INFO: Migrations Path: L:\testing_package\src\app\database\migrations\mysql
+[2026-03-25T11:37:01.870Z] [INFO] OK: Migration (CREATE) saved: L:\testing_package\src\app\database\migrations\mysql\20260325113657003_create_posts_table.ts
+[2026-03-25T11:37:01.872Z] [INFO] OK: Pivot migration saved: L:\testing_package\src\app\database\migrations\mysql\20260325113657004_create_post_user_pivot_table.ts
+[2026-03-25T11:37:01.873Z] [INFO] INFO: All database connections closed.
+
+[2026-03-25T11:37:01.873Z] [INFO] OK: Migration generation complete in DEVELOPMENT mode.
+
+[2026-03-25T11:37:01.874Z] [INFO] 
+Scenario generation complete.
+
