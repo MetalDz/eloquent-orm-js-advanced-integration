@@ -28,9 +28,8 @@
     "integration-testing"
   ],
   "scripts": {
-    "dev": "ts-node src/server.ts",
-    "app:start": "node scripts/app-start.cjs",
-    "app:stop": "node scripts/app-stop.cjs",
+    "dev": "nodemon --watch src --ext ts,d.ts --exec ts-node src/server.ts",
+    "app:start": "nodemon --watch src --ext ts,d.ts --exec ts-node src/server.ts",
     "build": "tsc -p tsconfig.json",
     "migrate:pg": "npx eloquent migrate:fresh --pg --force",
     "seed:pg": "npx eloquent db:seed --pg --class BlogScenarioSeeder",
@@ -51,6 +50,7 @@
     "@types/jsonwebtoken": "^9.0.10",
     "@types/memcached": "^2.2.10",
     "@types/node": "^25.5.0",
+    "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.2"
   }

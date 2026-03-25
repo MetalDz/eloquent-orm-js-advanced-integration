@@ -21,12 +21,13 @@ Foreground:
 npm run dev
 ```
 
-Background:
+Live reload:
 
 ```bash
 npm run app:start
-npm run app:stop
 ```
+
+Stop it with `Ctrl+C`.
 
 Health endpoint:
 

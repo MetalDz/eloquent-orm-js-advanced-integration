@@ -102,14 +102,19 @@ npx eloquent db:seed --pg --class BlogScenarioSeeder
 npm run dev
 ```
 
-Background lifecycle:
+Live reload:
 
 ```bash
 npm run app:start
-npm run app:stop
 ```
 
-`app:start` keeps the server running in the background until you stop it with `app:stop`.
+This uses `nodemon` to watch `src/**/*.ts` and restart the server automatically when files change.
+
+Stop it with:
+
+```bash
+Ctrl+C
+```
 
 ## Run tests
 
