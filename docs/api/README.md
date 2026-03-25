@@ -4,9 +4,11 @@ This directory documents the REST API exposed by the advanced integration harnes
 
 Pages:
 
+- [Health API](./health.md)
 - [Auth API](./auth.md)
 - [User API](./users.md)
 - [Post API](./posts.md)
+- [Comment API](./comments.md)
 
 Metadata:
 
@@ -35,6 +37,10 @@ Health endpoint:
 GET /health
 ```
 
+Health:
+
+- `GET /health`
+
 ## Route groups
 
 Auth:
@@ -59,3 +65,13 @@ Posts:
 - `POST /api/posts`
 - `PATCH /api/posts/:id`
 - `DELETE /api/posts/:id`
+
+Comments scaffold:
+
+- `GET /api/comments`
+- `GET /api/comments/:id`
+- `POST /api/comments`
+- `PATCH /api/comments/:id`
+- `DELETE /api/comments/:id`
+
+The comment controller/service scaffolding exists, but those routes are not mounted in the active router yet.

@@ -1,0 +1,20 @@
+{
+  "operationId": "comments.create",
+  "method": "POST",
+  "path": "/api/comments",
+  "authRequired": false,
+  "roles": [],
+  "mounted": false,
+  "requestBody": {
+    "content": "string",
+    "commentable_id": "number",
+    "commentable_type": "string"
+  },
+  "responseBody": {
+    "id": "number",
+    "content": "string",
+    "commentable_id": "number",
+    "commentable_type": "string"
+  },
+  "notes": "Generated scaffold exists, but the route is not mounted in createApiRouter."
+}

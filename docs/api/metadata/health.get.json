@@ -1,0 +1,12 @@
+{
+  "operationId": "health.get",
+  "method": "GET",
+  "path": "/health",
+  "authRequired": false,
+  "roles": [],
+  "mounted": true,
+  "requestBody": null,
+  "responseBody": {
+    "ok": true
+  }
+}

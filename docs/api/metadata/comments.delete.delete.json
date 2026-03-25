@@ -1,0 +1,11 @@
+{
+  "operationId": "comments.delete",
+  "method": "DELETE",
+  "path": "/api/comments/:id",
+  "authRequired": false,
+  "roles": [],
+  "mounted": false,
+  "requestBody": null,
+  "responseBody": null,
+  "notes": "Generated scaffold exists, but the route is not mounted in createApiRouter."
+}
